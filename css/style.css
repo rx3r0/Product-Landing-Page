@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
     background-color: white;
     text-align: center;
+    font-family: "Open Sans", sans-serif;
 }
 
 header {
@@ -24,6 +27,7 @@ main {
 
 #feature-overview {
     flex-wrap: wrap;
+    text-align: center;
 }
 
 #description {
@@ -49,8 +53,8 @@ section {
     justify-content: center;
 }
 
-h2 {
-    text-align: center;
+.row-left h2 {
+    font-weight: 100;
 }
 
 .row-left {
@@ -72,6 +76,8 @@ h2 {
 #contact {
     text-align: center;
     width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 #form {
@@ -102,6 +108,7 @@ legend {
     background-color: yellow;
     font-weight: bold;
     font-size: 14px;
+    text-transform: uppercase;
 }
 
 footer {
