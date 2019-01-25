@@ -25,15 +25,12 @@
     </header>
     <main>
       <section id="features">
-        <div class="feature-row">
-          <div class="row-left">
-            <h2>SMS, Chat & Voice</h2>
-            <div>The fastest and most reliable global messaging platform.</div>
-          </div>
-          <div class="row-right">
-            <img id="main-img" class="feature-img" src="img/main_image.jpg"
-                 alt="Using Neo Message on iPhone surrounded by Macbook and office supplies">
-          </div>
+        <div id="feature-overview">
+          <h2>SMS, Chat & Voice</h2>
+          <p id="description">The fastest and most reliable global messaging
+            platform.</p>
+          <img id="main-img" class="feature-img" src="img/main_image.jpg"
+               alt="Using Neo Message on iPhone surrounded by Macbook and office supplies">
         </div>
 
         <div class="feature-row">
@@ -67,12 +64,12 @@
           <div class="row-left">
             <h3>Amazing Support</h3>
             <p>We want our customers to be happy and productive.  Please reach
-            out to our support team if you have any questions.</p>
+              out to our support team if you have any questions.</p>
           </div>
           <div class="row-right">
             <img id="support-img" class="feature-img" src="img/support.jpg"
                  alt="A Neo Message user showing someone on an iPhone to
-                 another user.">
+                      another user.">
           </div>
         </div>
       </section>
@@ -86,7 +83,9 @@
           <input id="email" type="email"><br>
           <label id="message-label" for="message">Message</label><br>
           <textarea id="message"></textarea><br>
-          <button id="submit" type="submit" value="submit">Submit</button>
+          <div id="button-area">
+            <button id="submit" type="submit" value="submit">Submit</button>
+          </div>
         </form>
       </section>
     </main>
