@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+}
+
+#header-img {
+    width: 25px;
+}
+
+main {
+    max-width: 900px;
+}
+
+.feature-img {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.feature-row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+footer {
+    width: 100%;
+    text-align: right;
+}
+
+.footer {
+    margin: 10px;
+    display: inline-block;
+}
