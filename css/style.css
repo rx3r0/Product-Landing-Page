@@ -2,7 +2,6 @@
 
 body {
     background-color: white;
-    text-align: center;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -15,8 +14,34 @@ header {
     display: inline-block;
 }
 
-#header {
+h1 {
     display: inline-block;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: right;
+    font-weight: 800;
+}
+
+nav ul {
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
 }
 
 main {
@@ -62,6 +87,7 @@ section {
     width: 50%;
     min-width: 300px;
     padding-right: 5px;
+    align-self: center;
 }
 
 .row-right {
