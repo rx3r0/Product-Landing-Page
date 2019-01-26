@@ -67,8 +67,8 @@ main {
 }
 
 section {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .feature-row {
@@ -133,9 +133,12 @@ section {
     margin-bottom: 10px;
 }
 
-legend {
-    text-align: center;
-    margin-bottom: 5px;
+.text-input {
+    height: 30px;
+}
+
+#message {
+    height: 60px;
 }
 
 #button-area {
