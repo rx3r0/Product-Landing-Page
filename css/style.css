@@ -7,6 +7,7 @@ body {
 
 header {
     text-align: left;
+    //background-color: white;
 }
 
 #header-img {
@@ -30,7 +31,7 @@ h1 {
 nav ul {
     margin: 0px;
     padding-top: 15px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     padding-left: 30px;
 }
 
@@ -97,6 +98,20 @@ section {
 }
 
 #pricing {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-info {
+    margin: 10px;
+    height: 180px;
+    width: 180px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid black;
 }
 
 #contact {
@@ -158,5 +173,15 @@ footer {
 
     .row-right {
         width: 100%;
+    }
+
+    #pricing {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 760px) {
+    #pricing {
+        flex-wrap: wrap;
     }
 }
