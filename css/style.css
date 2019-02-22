@@ -53,13 +53,22 @@ nav a {
     color: inherit;
 }
 
-/* 
-
 main {
     max-width: 800px;
     margin: auto;
     text-align: center;
 }
+
+section {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+h2 {
+    color: hsl(240, 100%, 80%);
+}
+/* 
+
 
 #feature-overview {
     flex-wrap: wrap;
@@ -71,14 +80,6 @@ main {
     font-weight: 100; 
     text-align: center;
     color: 	hsl(240, 100%, 30%);
-}
-section {
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-h2 {
-    color: hsl(240, 100%, 80%);
 }
 
 .feature-row {
