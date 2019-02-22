@@ -8,15 +8,19 @@
 </head>
 
 <body>
-  <!-- <script -->
-  <!--   src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> -->
-  <!-- </script> -->
+  <!-- <script 
+    src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> 
+  </script> -->
 
+  <!-- 
+    The header contains the page title, which is the product name and a logo, and the navigation bar, which contains links to the 3 sections of the page.
+  -->
   <header id="header">
     <img id="header-img"
       src="https://cdn0.iconfinder.com/data/icons/thin-communication-messaging/57/thin-036_bubble_comment_chat_message-512.png"
       alt="Neo Message Logo">
     <h1>NeoMessage</h1>
+
     <nav id="nav-bar">
       <ul>
         <li><a class="nav-link" href="#features">Features</a></li>
@@ -26,7 +30,16 @@
     </nav>
   </header>
   <main>
+    <!-- 
+      The main content of the page is divided into 3 sections.  The features section is a description of the product's features.  The pricing section is for the product's pricing.  The contact section provides a contact form to use when contacting the sales team.
+    -->
+
+    <!-- 
+      The features section contains 3 divisions, one for an overview of the features, and two that quickly describe two other features.  Each feature division is treated like a row in a table with two columns.
+      -->
     <section id="features">
+
+      <!-- Feature overview takes up the top of this section. -->
       <div id="feature-overview">
         <h2>SMS, Chat & Voice</h2>
         <p id="description">The fastest and most reliable global messaging
@@ -36,6 +49,9 @@
         <video id="video" src="" alt="" hidden></video>
       </div>
 
+      <!-- 
+        The next two feature divisions are flex elements that wrap depending on the device size or orientation.
+      -->
       <div class="feature-row">
         <div class="row-left">
           <h2>Fast and Reliable</h2>
@@ -73,6 +89,10 @@
         </div>
       </div>
     </section>
+
+    <!--
+      The pricing section contains boxes which details the pricing tiers.  They are flex elements that wrap depending on the devices size or orientation.
+    -->
     <section id="pricing">
       <div id="pricing-free" class="pricing-info">
         <h2>Free</h2>
@@ -92,6 +112,10 @@
           <br>Contact our sales team to for pricing information.</p>
       </div>
     </section>
+
+    <!--
+      The contact section is a form to be used for contacting the sales team.
+    -->
     <section id="contact">
       <h2>Talk to Sales</h2>
       <form id="form" action="https://www.freecodecamp.com/email-submit">
@@ -101,13 +125,17 @@
         <input id="email" class="text-input" type="email" name="email" placeholder="Enter your email address"><br>
         <label id="message-label" for="message">Message</label><br>
         <textarea id="message" placeholder="What would you like to ask us?">
-          </textarea><br>
+                </textarea><br>
         <div id="button-area">
           <input id="submit" type="submit" value="Submit">
         </div>
       </form>
     </section>
   </main>
+
+  <!-- 
+    The footer contains what would normally be links to privacy policies and terms of services. 
+  -->
   <footer>
     <div class="footer">Privacy</div>
     <div class="footer">Terms and Conditions</div>

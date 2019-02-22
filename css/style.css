@@ -1,15 +1,21 @@
+/* Add Open Sans from the Google Fonts Libary */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+/* Set the background and font for the page */
 body {
     background-color: white;
     font-family: "Open Sans", sans-serif;
 }
 
+/* 
+    Set up the page header.  This includes the header, the logo, the h1 that is the product name, and the nav-bar. 
+*/
 header {
     text-align: center;
     background-color: white;
 }
 
+/* Set the logo and the product name in the h1 to display side by side.  */
 #header-img {
     width: 25px;
     display: inline-block;
@@ -21,10 +27,7 @@ h1 {
     margin-top: 80px;
 }
 
-.feature-img {
-    width: 100%;
-}
-
+/* Set the nav-bar and it's child elements to be fixed at the top of the page. */
 #nav-bar {
     position: fixed;
     top: 0px;
@@ -43,6 +46,9 @@ nav ul {
     padding-left: 30px;
 }
 
+/* 
+    By default, the nav elements are displayed as an unordered list.  Set them to be displayed side by side. 
+*/
 nav li {
     display: inline;
     margin-right: 20px;
@@ -53,20 +59,31 @@ nav a {
     color: inherit;
 }
 
+/* Style the main section of the page. */
 main {
     max-width: 800px;
     margin: auto;
     text-align: center;
 }
 
+/* 
+    The main section of the page is further divided into 3 sections for the product's features, pricing, and contact information. 
+*/
 section {
     margin-bottom: 30px;
     margin-top: 30px;
 }
 
+/* The heading for sections in main */
 h2 {
     color: hsl(240, 100%, 80%);
 }
+
+/* Each of the feature divisions in the features section has an image. */
+.feature-img {
+    width: 100%;
+}
+
 /* 
 
 
