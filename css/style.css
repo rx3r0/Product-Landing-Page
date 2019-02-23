@@ -11,6 +11,8 @@
 body {
     background-color: white;
     font-family: "Open Sans", sans-serif;
+    max-width: 900px;
+    margin: auto;
 }
 
 /* 
@@ -185,10 +187,24 @@ footer {
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+
+    .feature-row {
+        margin-top: 20px;
+    }
+    .row-left {
+        text-align: left;
+        padding-right: 45px;
+        align-self: center;
+    }
+
+    .row-right {
+        padding-left: 5px;
+    }
+
 }
 
 /* For laptops/desktops, the device screen is divided into 12 columns. */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -201,6 +217,14 @@ footer {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+
+    .row-left {
+        padding-left: 20px;
+    }
+
+    .row-right {
+        padding-right: 20px;
+    }
 }
 /* 
 
