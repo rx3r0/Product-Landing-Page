@@ -38,7 +38,6 @@ h1 {
     position: fixed;
     top: 0px;
     right: 0px;
-    width: 100%;
     text-align: right;
     font-weight: 800;
     color: 	hsl(240, 100%, 30%);
@@ -67,7 +66,6 @@ nav a {
 
 /* Style the main section of the page. */
 main {
-    max-width: 800px;
     margin: auto;
     text-align: center;
 }
@@ -91,47 +89,13 @@ h2 {
     height: auto;
 }
 
-/* Define the page's Grid-View */
-/* For mobile devices, there is only one column and each element occupies the whole width of the device */
-[class*="col-"] {
-    width: 100%;
-}
-
-/* For desktops, device the screen width into 12 columns. */
-@media only screen and (min-width: 768px) {
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-}
-/* 
-
-
-#feature-overview {
-    flex-wrap: wrap;
-    text-align: center;
-}
-
 #description {
-    font-size: 40px;
-    font-weight: 100; 
-    text-align: center;
     color: 	hsl(240, 100%, 30%);
 }
 
 .feature-row {
     display: flex;
-    flex-wrap: nowrap;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -139,30 +103,16 @@ h2 {
     font-weight: 100;
 }
 
-.row-left {
-    text-align: left;
-    width: 80%;
-    min-width: 300px;
-    padding-right: 45px;
-    align-self: center;
-}
-
-.row-right {
-    width: 20%;
-    min-width: 250px;
-    padding-left: 5px;
-}
-
 #pricing {
-    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .pricing-info {
     margin: 10px;
-    height: 180px;
-    width: 180px;
+    height: 200px;
+    width: 200px;
     padding-top: 0px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -172,7 +122,6 @@ h2 {
 
 #contact {
     text-align: center;
-    width: 100%;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -213,9 +162,58 @@ h2 {
 }
 
 footer {
-    width: 100%;
-    text-align: right;
+    text-align: center;
 }
+/* Define the page's base layout as a Grid-View */
+/* For mobile devices, there is only one column and each element occupies the whole width of the device */
+[class*="col-"] {
+    width: 100%;
+}
+
+/* For desktops, device the screen width into 12 columns. */
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+/* 
+
+
+#feature-overview {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+
+
+.row-left {
+    text-align: left;
+    width: 80%;
+    min-width: 300px;
+    padding-right: 45px;
+    align-self: center;
+}
+
+.row-right {
+    width: 20%;
+    min-width: 250px;
+    padding-left: 5px;
+}
+
+
+
+
+
 
 .footer {
     margin: 10px;
